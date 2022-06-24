@@ -10,4 +10,6 @@ const port = 3000;
 
 app.use(express.static(path.resolve(__dirname,'public')));
 
+app.get('/',(req,res) => res.sendFile(path.join(__dirname,'views','home.html')));
+
 app.listen(port,() => console.log(`El servidor fue levantado correctamente en http://localhost:${port}`));
