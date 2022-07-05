@@ -1,7 +1,12 @@
 header{
     background-color: var(--amarillo);
+    padding: 20px 0;
 }
 
-header .img{
-    
+header .logo{
+    margin: 0 10px;
+}
+
+header .logo img{
+    width: 45%;
 }
