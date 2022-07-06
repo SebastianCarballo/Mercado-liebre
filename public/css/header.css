@@ -23,6 +23,18 @@ header p{
     text-align: center;
 }
 
-header p{
+header .links ul{
+    margin: 0 0 20px;
+}
+
+header .burger{
+    text-align: center;
     
+}
+
+header .burger i{
+    background-color: var(--celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
 }
