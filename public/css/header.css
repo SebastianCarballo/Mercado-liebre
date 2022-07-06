@@ -3,10 +3,14 @@ header{
     padding: 20px 0;
 }
 
-header .logo{
-    margin: 0 10px;
+header .logo,header .searchBar{/* En este caso compartimo elementos que usan lo mismo */
+    margin: 0 20px;
 }
 
 header .logo img{
     width: 45%;
+}
+header p{
+    margin: 20px 0;
+    text-align: center;
 }
