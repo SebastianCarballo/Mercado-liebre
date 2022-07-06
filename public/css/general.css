@@ -4,7 +4,12 @@
     padding: 0;
     font-family: var(--fuentePrincipal);
     }
-    
+
+body{
+    background-color: var(--grisClaro);
+}
+
+
     a{
         color: black;
         text-decoration: none;

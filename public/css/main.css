@@ -1,0 +1,11 @@
+main{
+    width: 90%;
+}
+
+main .banner{
+    display: none;
+}
+
+main section article img{
+    width: 100%;
+}
