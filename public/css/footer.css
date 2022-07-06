@@ -5,8 +5,23 @@ footer{
 
 footer section {
     text-align: center;
+    margin-bottom:40px ;
+    padding: 0 30 px;
 }
 
 footer section:last-child{
     text-align: start;
+    margin-bottom: 0;
+    padding: 0;
 }
+
+footer section i {
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section h3,footer section p{
+    color: var(--grisOscuro)
+}
+
