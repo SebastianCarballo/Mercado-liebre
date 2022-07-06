@@ -1,13 +1,19 @@
-main{
+main {
     width: 90%;
     margin: 0 auto;
     padding: 20px 0;
 }
 
-main .banner{
+main .banner {
     display: none;
 }
 
-main section article img{
+main section {}
+
+main section h2 {
+    font-size: var(--titulares);
+}
+
+main section article img {
     width: 100%;
 }
