@@ -12,8 +12,8 @@
     --fuentePrincipal:'Roboto', sans-serif;
     --fuenteSecundaria:'Open Sans', sans-serif;
    /* Tamaño Tipografico */
-   --cuerpo-de-texto:12px;
-   --titulares:24px;
-   --precios:18px;
-   --descuentosYdescripciones:16px;
+    --cuerpo-de-texto:12px;
+    --titulares:24px;
+    --precios:18px;
+    --descuentosYdescripciones:16px;
 }

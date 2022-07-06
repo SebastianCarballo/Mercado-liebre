@@ -1,6 +1,7 @@
 header{
     background-color: var(--amarillo);
     padding: 20px 0;
+    font-size: var(--cuerpo-de-texto);
 }
 
 header .logo,header .searchBar{/* En este caso compartimo elementos que usan lo mismo */
@@ -27,6 +28,10 @@ header .links ul{
     margin: 0 0 20px;
 }
 
+header .links ul i{
+    margin: 0 3px;
+}
+
 header .burger{
     text-align: center;
     
@@ -37,4 +42,6 @@ header .burger i{
     color: white;
     padding: 10px;
     border-radius: 7px;
+    font-size: 25px;
+    font-size: var(--titulares);
 }
