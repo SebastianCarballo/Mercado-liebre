@@ -10,7 +10,19 @@ header .logo,header .searchBar{/* En este caso compartimo elementos que usan lo 
 header .logo img{
     width: 45%;
 }
+
+header .searchBar i{
+    padding:1px;
+    background-color: white;
+    border: 1px solid var(--grisOscuro);
+    border-radius: 4px;
+}
+
 header p{
     margin: 20px 0;
     text-align: center;
+}
+
+header p{
+    
 }
