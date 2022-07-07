@@ -41,7 +41,7 @@ main section article .descuento {
     font-size: var(--descuentosYdescripciones);
 }
 
-main section h4 article h4 {
-    color: var(--grisClaro);
+main section article h4 {
+    color: var(--grisOscuro);
     font-size: var(--descuentosYdescripciones);
 }
