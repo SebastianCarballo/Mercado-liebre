@@ -51,3 +51,13 @@ main section article h4 {
     color: var(--grisOscuro);
     font-size: var(--descuentosYdescripciones);
 }
+
+
+/* Tablet */
+
+@media (min-width:461px) {}
+
+
+/* Desktop */
+
+@media (min-width:769px) {}
