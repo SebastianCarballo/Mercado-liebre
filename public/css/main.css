@@ -24,6 +24,24 @@ main section article img {
     width: 100%;
 }
 
+main section article .contenedor {
+    background-color: white;
+}
+
+main section article .camion,
 main section article .descuento {
     color: var(--verde)
+}
+
+main section article .precio {
+    font-size: var(--precios);
+}
+
+main section article .descuento {
+    font-size: var(--descuentosYdescripciones);
+}
+
+main section h4 article h4 {
+    color: var(--grisClaro);
+    font-size: var(--descuentosYdescripciones);
 }
