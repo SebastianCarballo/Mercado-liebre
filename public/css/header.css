@@ -30,6 +30,10 @@ header .links ul {
     margin: 0 0 20px;
 }
 
+header .links {
+    display: none;
+}
+
 header .links ul i {
     margin: 0 3px;
 }
@@ -51,6 +55,9 @@ header .burger i {
 /* Tablet */
 
 @media (min-width:461px) {
+    header .links {
+        display: block;
+    }
     header .burger {
         display: none;
     }
