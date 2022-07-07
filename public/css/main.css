@@ -18,6 +18,7 @@ main section h2 {
 
 main section article {
     margin: 10px 0;
+    background-color: white;
 }
 
 main section article img {
@@ -25,12 +26,15 @@ main section article img {
 }
 
 main section article .contenedor {
-    background-color: white;
+    border-top: 1px solid var(--grisClaro)
 }
 
-main section article .camion,
-main section article .descuento {
-    color: var(--verde)
+main section article .camion i {
+    color: var(--verde);
+    padding: 10px;
+    border: 1px solid var(--verde);
+    border-radius: 50%;
+    font-size: var(--precios);
 }
 
 main section article .precio {
@@ -38,10 +42,12 @@ main section article .precio {
 }
 
 main section article .descuento {
+    color: var(--verde);
     font-size: var(--descuentosYdescripciones);
 }
 
 main section article h4 {
+    margin-top: 10px;
     color: var(--grisOscuro);
     font-size: var(--descuentosYdescripciones);
 }
