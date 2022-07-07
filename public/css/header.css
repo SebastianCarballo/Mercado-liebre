@@ -26,12 +26,13 @@ header p {
     text-align: center;
 }
 
-header .links ul {
-    margin: 0 0 20px;
+header .links .headerListTop,
+.headerListTop2 {
+    display: none;
 }
 
-header .links {
-    display: none;
+header .links ul {
+    margin: 0 0 20px;
 }
 
 header .links ul i {
@@ -55,7 +56,8 @@ header .burger i {
 /* Tablet */
 
 @media (min-width:461px) {
-    header .links {
+    header .links .headerListTop,
+    .headerListTop2 {
         display: block;
     }
     header .burger {

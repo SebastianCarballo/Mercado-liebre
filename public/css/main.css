@@ -60,9 +60,9 @@ main section article h4 {
     main section article {
         box-shadow: 0px 0px 10px var(--grisOscuro);
     }
-    main section article h4 {
+    /*   main section article h4 {
         display: block;
-    }
+    } */
 }
 
 
