@@ -1,43 +1,44 @@
-header{
+header {
     background-color: var(--amarillo);
     padding: 20px 0;
     font-size: var(--cuerpo-de-texto);
 }
 
-header .logo,header .searchBar{/* En este caso compartimo elementos que usan lo mismo */
+header .logo,
+header .searchBar {
+    /* En este caso compartimo elementos que usan lo mismo */
     margin: 0 20px;
 }
 
-header .logo img{
+header .logo img {
     width: 45%;
 }
 
-header .searchBar i{
-    padding:1px;
+header .searchBar i {
+    padding: 1px;
     background-color: white;
     border: 1px solid var(--grisOscuro);
     border-radius: 4px;
 }
 
-header p{
+header p {
     margin: 20px 0;
     text-align: center;
 }
 
-header .links ul{
+header .links ul {
     margin: 0 0 20px;
 }
 
-header .links ul i{
+header .links ul i {
     margin: 0 3px;
 }
 
-header .burger{
+header .burger {
     text-align: center;
-    
 }
 
-header .burger i{
+header .burger i {
     background-color: var(--celeste);
     color: white;
     padding: 10px;
@@ -45,3 +46,17 @@ header .burger i{
     font-size: 25px;
     font-size: var(--titulares);
 }
+
+
+/* Tablet */
+
+@media (min-width:461px) {
+    header .burger {
+        display: none;
+    }
+}
+
+
+/* Desktop */
+
+@media (min-width:769px) {}
