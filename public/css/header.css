@@ -1,7 +1,13 @@
 header {
     background-color: var(--amarillo);
     padding: 20px 0;
+    margin-bottom: 20px;
     font-size: var(--cuerpo-de-texto);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 header .logo,
@@ -12,7 +18,7 @@ header .searchBar {
 
 header .logo img {
     width: 45%;
-    margin
+    margin-right: 10px;
 }
 
 header .searchBar i {
