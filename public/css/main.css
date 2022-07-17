@@ -11,6 +11,20 @@ main section {
     padding: 20px 0;
 }
 
+main section article i{
+    display: block;
+    font-size:var(--descuentosYdescripciones);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: (var--blanco);
+    border-radius: 50%;
+    position:absolute;
+    right: 20px;
+    top:-15px;
+}
+
 main section h2 {
     font-size: var(--titulares);
     color: var(--grisOscuro)
@@ -35,6 +49,7 @@ main section article .camion i {
     border: 1px solid var(--verde);
     border-radius: 50%;
     font-size: var(--precios);
+    display: block;
 }
 
 main section article .precio {
