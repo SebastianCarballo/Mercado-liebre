@@ -25,6 +25,21 @@ main section article img {
     width: 100%;
 }
 
+main section article i{
+    display: block;
+    font-size: var(--descuentosYdescripciones);
+    padding:5px;
+    width:30px;
+    height: 30px;
+    border: 1px solid var(--verde);
+    background-color: var(--blanco);
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top:-15px;
+
+}
+
 main section article .contenedor {
     /*  border-top: 1px solid var(--grisClaro) */
 }

@@ -2,6 +2,7 @@ header {
     background-color: var(--amarillo);
     padding: 20px 0;
     font-size: var(--cuerpo-de-texto);
+    margin-bottom: 20px;
 }
 
 header .logo,
@@ -9,6 +10,8 @@ header .searchBar {
     /* En este caso compartimo elementos que usan lo mismo */
     margin: 0 20px;
 }
+
+
 
 header .logo img {
     width: 45%;
