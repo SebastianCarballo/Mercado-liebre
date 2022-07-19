@@ -6,8 +6,6 @@ header {
 }
 
 .logo{
-    display: flex;
-    align-items: center;
     width: 50%;
 }
 
@@ -15,9 +13,8 @@ header .logo,
 header .searchBar {
     /* En este caso compartimo elementos que usan lo mismo */
     margin: 0 20px;
-    display: block;
+    display: flex;
     align-items: center;
-
 }
 
 header .logo img {
@@ -34,6 +31,11 @@ header .searchBar i {
 
 header p {
     margin: 20px 0;
+    text-align: center;
+    font-weight: 400;
+}
+.slogan{
+    font-weight: 400;
     text-align: center;
 }
 
